@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=77.0.3,<81", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "qwen-concept-weight-editor"
+version = "0.1.0"
+description = "Experimental CPU-only concept-bias editor for Qwen2.5-0.5B-Instruct"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+dependencies = ["torch>=2.2,<3", "transformers>=4.46,<5", "safetensors>=0.4,<1"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<10"]
+
+[tool.setuptools.packages.find]
+where = ["src"]

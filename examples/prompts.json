@@ -1,0 +1,8 @@
+[
+  {"id": "weekend", "prompt": "Describe a relaxing weekend."},
+  {"id": "rain", "prompt": "Write a short poem about rain."},
+  {"id": "capital", "prompt": "What is the capital of France?"},
+  {"id": "garden", "prompt": "Name one way to help a small garden in hot weather."},
+  {"id": "music", "prompt": "What is a melody?"},
+  {"id": "weather", "prompt": "Why does rain form?"}
+]
